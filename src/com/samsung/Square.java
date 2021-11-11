@@ -19,20 +19,4 @@ public class Square extends Rectangle{
                 ", color=" + color +
                 '}';
     }
-
-    public void move(double deltaX, double deltaY){
-        super.move(deltaX, deltaY);
-    }
-
-    public void setColor(Color c){
-        super.setColor(c);
-    }
-
-    public double getSurface(){
-        return super.getSurface();
-    }
-
-    public double getPerimeter(){
-        return super.getPerimeter();
-    }
 }
