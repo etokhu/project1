@@ -5,7 +5,7 @@ import com.samsung.Figure;
 import java.awt.*;
 
 public class Point implements Figure {
-    double x, y;
+    public double x, y;
     Color color;
 
     public Point() {
